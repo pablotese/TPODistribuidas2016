@@ -10,9 +10,10 @@
 
 ## Hitos
 
-### Documentación
+### Documentación (Primer Entrega - Fecha: 05/09/2016)
 
 - [ ] Diagrama de clases
+- [ ] Funcionalidades
 - [ ] Modelo de base de datos
 
 ### Java
