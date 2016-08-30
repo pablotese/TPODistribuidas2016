@@ -2,13 +2,19 @@
 
 ## Integrantes
 
-* Integrante: 
-* Integrante: 
-* Integrante: 
-* Integrante: 
-* Integrante: 
+* Integrante: XXXXXXX - LU: XXXXXXXX
+* Integrante: XXXXXXX - LU: XXXXXXXX 
+* Integrante: XXXXXXX - LU: XXXXXXXX 
+* Integrante: XXXXXXX - LU: XXXXXXXX 
+* Integrante: XXXXXXX - LU: XXXXXXXX
 
 ## Hitos
+
+### Java
+
+- [ ] Configuración del servidor
+
+### Web
 
 * Clientes
 	- [ ] Alta
