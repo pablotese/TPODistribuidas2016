@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body class="container-fluid">
+		<header class="row">
+			
+		</header>
+		<div class="row">
+			<nav class="col-md-3">
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="#">HOME</a>
+					</li>
+					<li>
+						<a href="#">Clientes</a>
+					</li>
+					<li class="active">
+						<a href="#">Vehículos</a>
+					</li>
+					<li>
+						<a href="#">Sucursales</a>
+					</li>
+					<li>
+						<a href="#">Administración</a>
+					</li>
+					<li>
+						<a href="#">Control de viajes</a>
+					</li>
+					<li>
+						<a href="#">Cobranzas</a>
+					</li>
+					<li>
+						<a href="#">Pago de proveedores</a>
+					</li>
+					<li>
+						<a href="#">Contratación de viajes</a>
+					</li>
+					<li>
+						<a href="#">Recepción de pedido</a>
+					</li>
+					<li>
+						<a href="#">Translado intermedio</a>
+					</li>
+					<li>
+						<a href="#">Confeccionar envío</a>
+					</li>
+					<li>
+						<a href="#">Plan de mantenimiento</a>
+					</li>
+					<li>
+						<a href="#">Contratación de terceros</a>
+					</li>
+					<li>
+						<a href="#">Envíos al exterior</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="col-md-9">
+				<section class="col-md-12">
+					<h1>Vehículos</h1>
+					<form action="" method="post">
+						<div class="row">
+							<div class="col-md-4">
+								<label for="patente">Patente</label>
+								<input type="text" name="patente" id="patente" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="volumen">Volumen</label>
+								<input type="number" name="volumen" id="volumen" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="peso">Peso</label>
+								<input type="number" name="peso" id="peso" class="form-control">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<label for="tara">Tara</label>
+								<input type="number" name="tara" id="tara" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="tipo">Tipo</label>
+								<select name="tipo" id="tipo" class="form-control">
+									<option value="">Seleccione un tipo</option>
+									<option value="tractor">Tractor</option>
+									<option value="caja">Camión con caja</option>
+									<option value="tanque">Camión tanque </option>
+									<option value="camioneta">Camioneta</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<strong class="title-field">Disponible</strong>
+								<div class="ctn-field">
+									<input type="radio" name="disponible" id="disponible_si" checked="checked"> 
+									<label for="disponible_si" class="label-inline">SI</label>
+									<input type="radio" name="disponible" id="disponible_no"> 
+									<label for="disponible_no" class="label-inline">NO</label>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-4">
+								<strong class="title-field">Refrigerado</strong>
+								<div class="ctn-field">
+									<input type="radio" name="refrigerado" id="disponible_si" checked="checked"> 
+									<label for="disponible_si" class="label-inline">SI</label>
+									<input type="radio" name="refrigerado" id="disponible_no"> 
+									<label for="disponible_no" class="label-inline">NO</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<label for="sucursal">Sucursal</label>
+								<input type="text" name="sucursal" id="sucursal" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="kilometraje">Kilometraje</label>
+								<input type="number" name="kilometraje" id="kilometraje" class="form-control">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<label for="año">Año</label>
+								<input type="number" name="año" id="año" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="tiempodesdemantenimiento">Tiempo desde mantenimiento</label>
+								<input type="text" name="tiempodesdemantenimiento" id="tiempodesdemantenimiento" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="kilometrajedesdemantenimiento">Kilometraje desde mantenimiento</label>
+								<input type="number" name="kilometrajedesdemantenimiento" id="kilometrajedesdemantenimiento" class="form-control">
+							</div>
+						</div>
+
+						<div class="row">
+							<h2 class="col-md-12">Tareas de mantenimiento realizadas</h2>
+							<div class="col-md-12">
+								<table class="table table-striped table-hover">
+									<tr>
+										<td>#</td>
+										<td>Descripción</td>
+									</tr>
+									<tr>
+										<td>01</td>
+										<td>Descripción</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="row">
+							<h2 class="col-md-12">Plan de mantenimiento</h2>
+							<div class="col-md-12">
+								<table class="table table-striped table-hover">
+									<tr>
+										<td>#</td>
+										<td>Descripción</td>
+									</tr>
+									<tr>
+										<td>01</td>
+										<td>Descripción</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<input type="submit" value="Guardar" class="btn btn-primary btn-block">
+							</div>
+						</div>
+						
+					</form>
+				</section>
+			</main>
+		</div>
+		<footer class="row">
+			TPO - Distribuidas &reg; 2016
+		</footer>
+	</body>
+</html>
