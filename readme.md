@@ -10,9 +10,16 @@
 
 ## Hitos
 
+### Documentación
+
+- [ ] Diagrama de clases
+- [ ] Modelo de base de datos
+
 ### Java
 
 - [ ] Configuración del servidor
+- [ ] Configuración de la base de datos
+- [ ] Hibernate
 
 ### Web
 
