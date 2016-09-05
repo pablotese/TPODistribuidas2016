@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<title>Der große Verteiler - Clientes</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body class="container-fluid">
+		<header class="row">
+			
+		</header>
+		<div class="row">
+			<nav class="col-md-3">
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="#">HOME</a>
+					</li>
+					<li class="active">
+						<a href="clientes.html">Clientes</a>
+					</li>
+					<li>
+						<a href="vehiculos.html">Vehículos</a>
+					</li>
+					<li>
+						<a href="#">Sucursales</a>
+					</li>
+					<li>
+						<a href="#">Administración</a>
+					</li>
+					<li>
+						<a href="#">Control de viajes</a>
+					</li>
+					<li>
+						<a href="#">Cobranzas</a>
+					</li>
+					<li>
+						<a href="#">Pago de proveedores</a>
+					</li>
+					<li>
+						<a href="#">Contratación de viajes</a>
+					</li>
+					<li>
+						<a href="#">Recepción de pedido</a>
+					</li>
+					<li>
+						<a href="#">Translado intermedio</a>
+					</li>
+					<li>
+						<a href="#">Confeccionar envío</a>
+					</li>
+					<li>
+						<a href="#">Plan de mantenimiento</a>
+					</li>
+					<li>
+						<a href="#">Contratación de terceros</a>
+					</li>
+					<li>
+						<a href="#">Envíos al exterior</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="col-md-9">
+				<section class="col-md-12">
+					<h1>Vehículos</h1>
+					<form action="" method="post">
+						<div class="row">
+							<div class="col-md-4">
+								<label for="nombre">Nombre</label>
+								<input type="text" name="nombre" id="nombre" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="apellido">Apellido</label>
+								<input type="text" name="apellido" id="apellido" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="dni">DNI</label>
+								<input type="number" name="dni" id="dni" class="form-control">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<label for="razon">Razon Social</label>
+								<input type="text" name="razon" id="razon" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="cuit">CUIT</label>
+								<input type="number" name="cuit" id="cuit" class="form-control">
+							</div>
+							<div class="col-md-4">
+
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-4">
+								<label for="pais">País</label>
+								<select name="pais" id="pais" class="form-control">
+									<option>Seleccione un país</option>
+									<option>Argentina</option>
+									<option>Brasil</option>
+									<option>Chile</option>
+								</select>
+							</div>
+							<div class="col-md-4">
+								<label for="direccion">Dirección</label>
+								<input type="text" name="direccion" id="direccion" class="form-control">
+							</div>
+							<div class="col-md-4">
+
+							</div>
+						</div>
+
+						<div class="row">
+							<h2 class="col-md-12">Cuenta Corriente</h2>
+							<div class="col-md-12">
+								<table class="table table-striped table-hover">
+									<tr>
+										<th>#</th>
+										<th>Saldo</th>
+										<th>Saldo mínimo</th>
+										<th>Limite</th>
+										<th>Forma de pago</th>
+									</tr>
+									<tr>
+										<td>01</td>
+										<td>1231</td>
+										<td>100</td>
+										<td>1000</td>
+										<td>Tarjeta de Crédito</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="row">
+							<h2 class="col-md-12">Facturas</h2>
+							<div class="col-md-12">
+								<table class="table table-striped table-hover">
+									<tr>
+										<th>Fecha</th>
+										<th>Total</th>
+										<th>Pagada</th>
+									</tr>
+									<tr>
+										<td>01/01/2001</td>
+										<td>13111</td>
+										<td>
+											<span class="glyphicon glyphicon-ok"></span>
+											Paga
+										</td>
+									</tr>
+									<tr>
+										<td>01/01/2001</td>
+										<td>13111</td>
+										<td>
+											<span class="glyphicon glyphicon-remove"></span>
+											Impaga
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12">
+								<input type="submit" value="Guardar" class="btn btn-primary btn-block">
+							</div>
+						</div>
+						
+					</form>
+				</section>
+			</main>
+		</div>
+		<footer class="row">
+			TPO - Distribuidas &reg; 2016
+		</footer>
+	</body>
+</html>

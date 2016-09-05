@@ -30,6 +30,25 @@ label.label-inline {
 	margin:0px 10px;
 }
 
+.ctn-add {
+	text-align:right;
+}
+
+.btn-add {
+	margin-bottom:10px;
+}
+
+td.buttons {
+	text-align:right;
+}
+
+.ctn-table {
+	border-top:1px solid #DDD;
+	padding-top:10px;
+	height:245px;
+	overflow:auto;
+}
+
 nav {
 	padding-top:20px;
 	padding-bottom:20px;
