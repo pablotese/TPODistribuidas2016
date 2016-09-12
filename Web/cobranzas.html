@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app>
 	<head>
-		<title>Der große Verteiler - Empleados</title>
+		<title>Der große Verteiler - Cobranzas</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -27,7 +27,7 @@
 					<li>
 						<a href="sucursales.html">Sucursales</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="empleados.html">Empleados</a>
 					</li>
 					<li>
@@ -36,7 +36,7 @@
 					<li>
 						<a href="#">Control de viajes</a>
 					</li>
-					<li>
+					<li class="active">
 						<a href="cobranzas.html">Cobranzas</a>
 					</li>
 					<li>
@@ -67,7 +67,7 @@
 			</nav>
 			<main class="col-md-9">
 				<section class="col-md-12">
-					<h1>Empleados</h1>
+					<h1>Cobranzas</h1>
 					<form action="" method="post">
 						<div class="row">
 							<div class="col-md-12">
@@ -79,15 +79,20 @@
 								</div>
 								<table class="table table-striped table-hover">
 									<tr>
-										<th>Nombre</th>
-										<th>DNI</th>
-										<th>Categoría</th>
+										<th>Cliente</th>
+										<th>Fecha</th>
+										<th>Total</th>
+										<th>Pagada</th>
 										<th></th>
 									</tr>
 									<tr>
-										<td>Carlos Perez</td>
-										<td>22232121</td>
-										<td>Administrativo</td>
+										<td>Carlos S.A.</td>
+										<td>01/01/2016</td>
+										<td>12313212,12</td>
+										<td>
+											<span class="glyphicon glyphicon-remove"></span>
+											Impaga
+										</td>
 										<td class="buttons">
 											<button class="btn btn-primary">
 												<span class="glyphicon glyphicon-pencil"></span>
@@ -100,9 +105,13 @@
 										</td>
 									</tr>
 									<tr>
-										<td>Carlos Perez</td>
-										<td>22232121</td>
-										<td>Administrativo</td>
+										<td>Carlos S.A.</td>
+										<td>01/01/2016</td>
+										<td>12313212,12</td>
+										<td>
+											<span class="glyphicon glyphicon-ok"></span>
+											Paga
+										</td>
 										<td class="buttons">
 											<button class="btn btn-primary">
 												<span class="glyphicon glyphicon-pencil"></span>
@@ -115,9 +124,13 @@
 										</td>
 									</tr>
 									<tr>
-										<td>Carlos Perez</td>
-										<td>22232121</td>
-										<td>Administrativo</td>
+										<td>Carlos S.A.</td>
+										<td>01/01/2016</td>
+										<td>12313212,12</td>
+										<td>
+											<span class="glyphicon glyphicon-remove"></span>
+											Impaga
+										</td>
 										<td class="buttons">
 											<button class="btn btn-primary">
 												<span class="glyphicon glyphicon-pencil"></span>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app>
 	<head>
-		<title>Der große Verteiler - Empleados</title>
+		<title>Der große Verteiler - Cobranzas</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -27,7 +27,7 @@
 					<li>
 						<a href="sucursales.html">Sucursales</a>
 					</li>
-					<li class="active">
+					<li>
 						<a href="empleados.html">Empleados</a>
 					</li>
 					<li>
@@ -36,7 +36,7 @@
 					<li>
 						<a href="#">Control de viajes</a>
 					</li>
-					<li>
+					<li class="active">
 						<a href="cobranzas.html">Cobranzas</a>
 					</li>
 					<li>
@@ -67,9 +67,38 @@
 			</nav>
 			<main class="col-md-9">
 				<section class="col-md-12">
-					<h1>Empleados</h1>
+					<h1>Cobranzas</h1>
 					<form action="" method="post">
+
 						<div class="row">
+							<div class="col-md-12">
+								<label for="cliente">Cliente</label>
+								<input type="text" name="cliente" id="cliente" class="form-control">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<label for="fecha">Fecha</label>
+								<input type="date" name="fecha" id="fecha" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<label for="total">Total</label>
+								<input type="number" name="total" id="total" class="form-control">
+							</div>
+							<div class="col-md-4">
+								<strong class="title-field">Pagada</strong>
+								<div class="ctn-field">
+									<input type="radio" name="pagada" id="pagada_si" checked="checked"> 
+									<label for="pagada_si" class="label-inline">SI</label>
+									<input type="radio" name="pagada" id="pagada_no"> 
+									<label for="pagada_no" class="label-inline">NO</label>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row">
+							<h2 class="col-md-12">Items</h2>
 							<div class="col-md-12">
 								<div class="ctn-add">
 									<button class="btn btn-success btn-add">
@@ -79,15 +108,17 @@
 								</div>
 								<table class="table table-striped table-hover">
 									<tr>
-										<th>Nombre</th>
-										<th>DNI</th>
-										<th>Categoría</th>
+										<th>#</th>
+										<th>Descripción</th>
+										<th>Subtotal</th>
+										<th>Cantidad</th>
 										<th></th>
 									</tr>
 									<tr>
-										<td>Carlos Perez</td>
-										<td>22232121</td>
-										<td>Administrativo</td>
+										<td>01</td>
+										<td>Item 001</td>
+										<td>23123,12</td>
+										<td>31</td>
 										<td class="buttons">
 											<button class="btn btn-primary">
 												<span class="glyphicon glyphicon-pencil"></span>
@@ -100,9 +131,10 @@
 										</td>
 									</tr>
 									<tr>
-										<td>Carlos Perez</td>
-										<td>22232121</td>
-										<td>Administrativo</td>
+										<td>01</td>
+										<td>Item 001</td>
+										<td>23123,12</td>
+										<td>31</td>
 										<td class="buttons">
 											<button class="btn btn-primary">
 												<span class="glyphicon glyphicon-pencil"></span>
@@ -115,9 +147,10 @@
 										</td>
 									</tr>
 									<tr>
-										<td>Carlos Perez</td>
-										<td>22232121</td>
-										<td>Administrativo</td>
+										<td>01</td>
+										<td>Item 001</td>
+										<td>23123,12</td>
+										<td>31</td>
 										<td class="buttons">
 											<button class="btn btn-primary">
 												<span class="glyphicon glyphicon-pencil"></span>
@@ -132,6 +165,29 @@
 								</table>
 							</div>
 						</div>
+
+						<div class="row">
+							<h2 class="col-md-12">Recibo</h2>
+							<div class="col-md-12">
+								<table class="table table-striped table-hover">
+									<tr>
+										<th>#</th>
+										<th>Monto</th>
+									</tr>
+									<tr>
+										<td>01</td>
+										<td>123123,12</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<input type="submit" value="Guardar" class="btn btn-primary btn-block">
+							</div>
+						</div>
+						
 					</form>
 				</section>
 			</main>
