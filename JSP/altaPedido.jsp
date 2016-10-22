@@ -26,10 +26,13 @@
 		<div class="row">
 			<nav class="col-md-3">
 				<ul class="nav nav-pills nav-stacked">
-					<li class="active">
-						<a href="index.html">Alta de Cargas</a>
+					<li>
+						<a href="index">Home</a>
 					</li>
 					<li>
+						<a href="AltaCarga">Alta de Cargas</a>
+					</li>
+					<li class="active">
 						<a>Administración de Pedidos</a>
 						<ul>
 							<li><a href="AltaCarga">Alta de Pedidos</a></li>

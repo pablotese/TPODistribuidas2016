@@ -17,8 +17,11 @@
 		<div class="row">
 			<nav class="col-md-3">
 				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="index">Home</a>
+					</li>
 					<li class="active">
-						<a href="index.html">Alta de Cargas</a>
+						<a href="AltaCarga">Alta de Cargas</a>
 					</li>
 					<li>
 						<a>Administración de Pedidos</a>
